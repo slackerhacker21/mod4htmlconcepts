@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 4 HTML Assignment</title>
+</head>
+<body>
+  <!-- Your code goes here -->
+
+  <!-- Part 1: Form Creation -->
+  <section>
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+      <label>How did you find us?</label><br>
+      <input type="radio" id="google" name="found" value="Google">
+      <label for="google">Google</label><br>
+      <input type="radio" id="social" name="found" value="Social Media">
+      <label for="social">Social Media</label><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Part 2: Table Structure -->
+  <section>
+    <h2>Sample Products</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Blueberry Muffin</td>
+          <td>$5.00</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Strawberry Muffin</td>
+          <td>$5.00</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Banana Oat Muffin</td>
+          <td>$5.00</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Part 3: Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Part 4: Adding Images -->
+  <section>
+    <h2>Placeholder Image</h2>
+    <img src="https://placehold.co/300x200" alt="Placeholder Image"><br><br>
+
+    <h2>Rounded Image</h2>
+    <img src="https://placehold.co/300x200" alt="Rounded Placeholder Image" style="border-radius: 15px;">
+  </section>
+
+</body>
+</html>
